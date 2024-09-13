@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Docsify Coverpage with Video Background</title>
+  <link rel="stylesheet" href="https://gllmar.github.io/docsify-simple-style/docsify-simple-style.css"></head>
+<body>
+  <div id="app"></div>
+  <!-- Docsify configuration -->
+  <script>
+    window.$docsify = {
+      coverpage: true,
+      coverpageVideo: {
+        // Override default options here if needed
+        // videoSrc: 'my-custom-video.mp4',
+        // autoplay: true,
+        // loop: true,
+        // objectFit: 'contain',
+        // zIndex: -5
+      }
+    }
+  </script>
+
+  <!-- Docsify scripts -->
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="docsify-coverpage-video.js"></script>
+</body>
+</html>
